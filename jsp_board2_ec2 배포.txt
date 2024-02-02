@@ -1,0 +1,75 @@
+------------------ war 넣기 --------------------
+-처음 업데이트
+sudo apt-get update
+
+-톰캣 위치 찾기
+sudo find / -name webapps
+
+cd /var/lib/tomcat9
+
+-포트확인(8080, 22번 확인)
+netstat -nlpt
+
+-깃버전확인
+git --version
+
+-아래 위치 깃 war파일 올려둔 레포 클론하기
+-(ROOT index.html 파일 있음)
+cd /var/lib/tomcat9/webapps/ROOT
+
+-클론파일 들어가서 war 파일 tomcat9위치에 빼주기
+cd jsp_board2
+sudo mv jsp_board2.war ../
+
+-압축풀기
+sudo unzip jsp_board2.war 
+
+-grep 쓰면 빨강색 보임
+sudo apt-cache search mysql | grep mysql
+
+------------------ mysql설치 --------------------
+sudo apt-get install mysql-server-8.0
+
+-설치 후 3306 포트 확인
+netstat -nlpt
+
+-mysql 접속
+ sudo mysql -u root -p
+
+- jsp_board2 계정생성
+create user 'lee'@'%' identified by '0000';
+GRANT ALL privileges ON *.* TO 'lee'@'%';
+CREATE database leedb;
+
+-- 테이블 생성 (1)
+DROP TABLE IF EXISTS JSP_CUSTOMER;
+CREATE TABLE JSP_CUSTOMER (
+    JC_No INT PRIMARY KEY AUTO_INCREMENT,
+    JC_Id VARCHAR(20) NOT NULL COMMENT '사용자 이름',
+    JC_Password VARCHAR(20) NOT NULL COMMENT '비밀번호',
+    JC_RegDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP COMMENT '등록일'
+) ENGINE=InnoDB;
+
+-- 테이블 생성 (2)
+DROP TABLE IF EXISTS JSP_BOARD;
+CREATE TABLE JSP_BOARD (
+    JB_No INT PRIMARY KEY AUTO_INCREMENT,
+    JB_Writer VARCHAR(20) NOT NULL COMMENT '작성자',
+    JB_Title VARCHAR(20) NOT NULL COMMENT '제목',
+    JB_Content TEXT NOT NULL COMMENT '글내용',
+    JB_RegDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP COMMENT '등록일'
+) ENGINE=InnoDB;
+
+
+-- /var/lib/tomcat9/conf 경로 
+   sudo nano context.xml 하단(</Context> 태그 안)에 아래 태그 넣자
+
+   <Resource name="jdbc/TestDB2" auth="Container" type="javax.sql.DataSource"
+               maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+               username="lee" password="0000" driverClassName="com.mysql.cj.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/leedb?serverTimezone=Asia/Seoul"/>
+
+-- 3306 멈추고 다시 올리자(설정 바꾸었으니)
+sudo service mysql stop
+netstat -nlpt
+sudo service mysql start
