@@ -3,7 +3,7 @@
 ### 프로젝트 소개
 
 - JSP, AWS EC2를 사용하여 게시판 구현 및 배포
-- 주소 : http://13.209.67.168:8080/ListTest_newLecture/views/main.jsp
+- 주소 : http://3.35.59.230:8080/index.jsp
 
 ## 
    - ### JSP을 이용하여 게시판 구현을 하였습니다.
