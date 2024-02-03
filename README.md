@@ -15,7 +15,7 @@
 
 
    - ### 관리자 로그인 ( 관리자로 로그인시 모든 수정, 삭제 권한 부여)
-      ![admiin](https://github.com/oidolee/jsp_board/assets/85022962/b84552e3-e1f3-494d-8e96-34db30141c8b)
+     ![admin](https://github.com/oidolee/jsp_board2/assets/85022962/055c2479-c7c1-4fda-9a96-d4a860fc5ce8)
 
 
 ## 1. 개발 환경
