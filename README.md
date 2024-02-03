@@ -8,7 +8,9 @@
 ## 
    - ### JSP을 이용하여 게시판 구현을 하였습니다.
    - ### 일반 로그인
-      ![nomal](https://github.com/oidolee/jsp_board/assets/85022962/58577a26-dd33-4c01-96a7-3d47f17d78d7)
+     https://github.com/oidolee/jsp_board2/assets/85022962/6b6bdf98-db03-4f83-a4ee-0ab1671df505
+
+
 
    - ### 관리자 로그인 ( 관리자로 로그인시 모든 수정, 삭제 권한 부여)
       ![admiin](https://github.com/oidolee/jsp_board/assets/85022962/b84552e3-e1f3-494d-8e96-34db30141c8b)
