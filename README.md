@@ -8,7 +8,8 @@
 ## 
    - ### JSP을 이용하여 게시판 구현을 하였습니다.
    - ### 일반 로그인
-     https://github.com/oidolee/jsp_board2/assets/85022962/6b6bdf98-db03-4f83-a4ee-0ab1671df505
+     ![registerAndLogin](https://github.com/oidolee/jsp_board2/assets/85022962/b2039528-bf04-48f7-9488-7749fb123158)
+
 
 
 
