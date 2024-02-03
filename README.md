@@ -10,7 +10,8 @@
    - ### 일반 로그인
      ![registerAndLogin](https://github.com/oidolee/jsp_board2/assets/85022962/b2039528-bf04-48f7-9488-7749fb123158)
 
-
+   - ### 게시글 쓰기,수정,삭제
+      ![boardCRUD](https://github.com/oidolee/jsp_board2/assets/85022962/5c298d65-0ea6-4185-89e3-16db835a975c)
 
 
    - ### 관리자 로그인 ( 관리자로 로그인시 모든 수정, 삭제 권한 부여)
