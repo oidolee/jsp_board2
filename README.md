@@ -3,8 +3,8 @@
 ### 프로젝트 소개
 
 - JSP, AWS EC2를 사용하여 게시판 구현 및 배포
-- 주소 : [JSP 게시판 이동]([https://www.google.co.kr/](http://3.35.59.230:8080/index.jsp)){:target="_blank"}
-         <a href="https://google.com" target="_blank">새창에서 열려랴 얍</a>
+- 주소 : [https://google.com](http://3.35.59.230:8080/index.jsp)
+        
 
 ## 
    - ### JSP을 이용하여 게시판 구현을 하였습니다.
