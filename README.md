@@ -102,25 +102,26 @@
 ## 3. 주요 코드 설명
 
    - ### BoardDAO
-      ![image](https://github.com/oidolee/jsp_board/assets/85022962/0995f43f-cbac-4081-878f-5363c1c000d5)
+      ![image](https://github.com/oidolee/jsp_board2/assets/85022962/d8819e72-4b97-4c34-9a74-9976d2e8e543)
      <br> 
    - ### CustomerDAO
-     ![image](https://github.com/oidolee/jsp_board/assets/85022962/7b89ba1c-6d16-4dfe-97d3-9702cc657d2f)
+     ![image](https://github.com/oidolee/jsp_board2/assets/85022962/5d1af228-cd1e-4544-8974-89bff2085819)
 
    - ### BoardDTO
-     ![image](https://github.com/oidolee/jsp_board/assets/85022962/88978738-dbbc-46ce-87c4-eca44f5ca81e)
-
+     ![image](https://github.com/oidolee/jsp_board2/assets/85022962/9dff7846-089f-425c-b221-92cdc3f0b80a)
+     
    - ### CustomerDTO
-     ![image](https://github.com/oidolee/jsp_board/assets/85022962/9b9e67a1-a425-4122-b9ef-33ed7122901b)
+     ![image](https://github.com/oidolee/jsp_board2/assets/85022962/ad205465-bfb9-4908-adde-3679f43ae9a8)
 
-   - ### BoardService
-     ![image](https://github.com/oidolee/jsp_board/assets/85022962/9b9e67a1-a425-4122-b9ef-33ed7122901b)
+   - ### BoardService     
+     ![image](https://github.com/oidolee/jsp_board2/assets/85022962/a3b598df-8bf0-4b71-8ba0-98cf94e435ba)
 
-   - ### CustomerService
-     ![image](https://github.com/oidolee/jsp_board/assets/85022962/9b9e67a1-a425-4122-b9ef-33ed7122901b)     
+   - ### CustomerService     
+     ![image](https://github.com/oidolee/jsp_board2/assets/85022962/eaef6725-b167-48ac-b9e6-45497bc5474e)
 
    - ### PagingMinJin
-     ![image](https://github.com/oidolee/jsp_board/assets/85022962/9b9e67a1-a425-4122-b9ef-33ed7122901b)     
+     ![image](https://github.com/oidolee/jsp_board2/assets/85022962/130e1110-cf9a-4937-b69f-69a8b2af08c7)
+
 
      
 
