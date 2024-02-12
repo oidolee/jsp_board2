@@ -129,10 +129,11 @@
 ## 3. DB
    - ### MySQL 사용
       - ### ERD
-        ![image](https://github.com/oidolee/jsp_board/assets/85022962/5db1ed8d-4fd5-45f9-9c1d-5bafdb71d625)
+        ![image](https://github.com/oidolee/jsp_board2/assets/85022962/bdf68250-98fa-43b3-9dcc-85c5ee29dbf8)
 
       - ### 테이블
-        ![image](https://github.com/oidolee/jsp_board/assets/85022962/90ca9d52-9191-4e0d-9048-d57b0b781dd2)
+        ![image](https://github.com/oidolee/jsp_board2/assets/85022962/ffb0e271-b522-436f-a7f4-3b7f152ac12c)
+
 
 
 ## 4. 느낀점
