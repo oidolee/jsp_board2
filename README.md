@@ -101,22 +101,28 @@
 
 ## 3. 주요 코드 설명
 
-   - ### UserDAO
+   - ### BoardDAO
       ![image](https://github.com/oidolee/jsp_board/assets/85022962/0995f43f-cbac-4081-878f-5363c1c000d5)
      <br> 
-   - ### UserDAOIpl.java
+   - ### CustomerDAO
      ![image](https://github.com/oidolee/jsp_board/assets/85022962/7b89ba1c-6d16-4dfe-97d3-9702cc657d2f)
 
-   - ### ListDAO
+   - ### BoardDTO
      ![image](https://github.com/oidolee/jsp_board/assets/85022962/88978738-dbbc-46ce-87c4-eca44f5ca81e)
 
-   - ### ListDAOIpl
+   - ### CustomerDTO
      ![image](https://github.com/oidolee/jsp_board/assets/85022962/9b9e67a1-a425-4122-b9ef-33ed7122901b)
 
-     
-   - ### registerController.jsp (userBean 통해 회원가입 등록데이터 입력)
-      ![image](https://github.com/oidolee/jsp_board/assets/85022962/697ea560-d4fb-4960-b28b-1f54e3f8fde3)
+   - ### BoardService
+     ![image](https://github.com/oidolee/jsp_board/assets/85022962/9b9e67a1-a425-4122-b9ef-33ed7122901b)
 
+   - ### CustomerService
+     ![image](https://github.com/oidolee/jsp_board/assets/85022962/9b9e67a1-a425-4122-b9ef-33ed7122901b)     
+
+   - ### PagingMinJin
+     ![image](https://github.com/oidolee/jsp_board/assets/85022962/9b9e67a1-a425-4122-b9ef-33ed7122901b)     
+
+     
 
 
 ## 3. DB
