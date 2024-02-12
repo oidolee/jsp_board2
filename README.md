@@ -130,9 +130,12 @@
    - ### MySQL 사용
       - ### ERD
         ![image](https://github.com/oidolee/jsp_board2/assets/85022962/bdf68250-98fa-43b3-9dcc-85c5ee29dbf8)
-
-      - ### 테이블
         ![image](https://github.com/oidolee/jsp_board2/assets/85022962/ffb0e271-b522-436f-a7f4-3b7f152ac12c)
+        
+      - ### 테이블
+        ![image](https://github.com/oidolee/jsp_board2/assets/85022962/24d48d13-b374-4cb4-ad17-37e5b49dc3a9)
+        ![image](https://github.com/oidolee/jsp_board2/assets/85022962/4bc04436-01b4-4a0a-a09e-6fe42d980c77)
+
 
 
 
