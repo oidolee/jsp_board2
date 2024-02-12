@@ -35,59 +35,67 @@
     └── src
         └── main
             ├── java
-            │       ├── list
-            │       │    ├── List.class
-            │       │    └── ListDAO.class    
-            │       │ 
-            │       ├── post
-            │       │    └── DBConn.class
-            │       │ 
-            │       └── user
-            │            ├── User.class
-            │            └── UserDAO.class
-            │
+            │       ├── controller
+            │       │    ├── BoardController.java
+            │       │    └── CustomerController.java
+            │       ├── dao
+            │       │    ├── BoardDAO.java           
+            │       │    ├── BoardDAOImpl.java
+            │       │    ├── CustomerDAO.java                        
+            │       │    └── CustomerDAOImpl.java
+            │       ├── dto
+            │       │    ├── BoardDTO.java            
+            │       │    └── CustomerDTO.java     
+            │       ├── service
+            │       │    ├── BoardService.java            
+            │       │    ├── BoardServiceImpl.java  
+            │       │    ├── CustomerService.java                          
+            │       │    └── CustomerServiceImpl.java 
+            │       └── util
+            │            └── PagingMinJin.java
             └── webapp
-                  └── Globalstyled.jsx
-                         ├── controller
-                         │    ├── listDeleteController.jsp
-                         │    ├── listInsertController.jsp
-                         │    ├── listUpdateController.jsp
-                         │    ├── loginController.jsp
-                         │    ├── logOutController.jsp
-                         │    └── registerController.jsp
-                         ├── css
-                         │    └── common.css
-                         ├── dist
-                         │    ├── css
-                         │    │    ├── bootstrap.min.css
-                         │    │    └── bootstrap.min.css.map
-                         │    └── js
-                         │         ├── bootstrap.bundle.min.js
-                         │         └── bootstrap.bundle.min.js.map
-                         ├── META-INF
-                         │    └── MANIFEST.MF
-                         ├── views
-                         │    ├── header.jsp
-                         │    ├── list.jsp
-                         │    ├── listInsert.jsp
-                         │    ├── listUpdate.jsp
-                         │    ├── login.jsp
-                         │    ├── main.jsp
-                         │    └──register.jsp         
-                         ├── views
-                         │    ├── header.jsp
-                         │    ├── list.jsp
-                         │    ├── listInsert.jsp
-                         │    ├── listUpdate.jsp
-                         │    ├── login.jsp
-                         │    ├── main.jsp
-                         │    └──register.jsp     
-                         ├── WEB-INF
-                         │    └── lib
-                         │          └── web.xml
-                         ├── form.html
-                         ├── index.jsp
-                         └── login.html
+                  ├── assets
+                  │    └── favicon.ico
+                  ├── css
+                  │    └── common.css
+                  ├── board
+                  │    ├── board_deleteAction.jsp
+                  │    ├── board_edit.jsp                  
+                  │    ├── board_editAction.jsp
+                  │    ├── board_write.jsp
+                  │    ├── board_writeAction.jsp
+                  │    └── board.jsp
+                  ├── common
+                  │    ├── header.jsp                  
+                  │    └── setting.jsp
+                  ├── css
+                  │    └── styles.css
+                  ├── customer
+                  │    ├── login.jsp
+                  │    ├── loginAction.jsp
+                  │    ├── register.jsp
+                  │    └── registerAction.jsp     
+                  ├── js
+                  │    └── scripts.js
+                  ├── META-INF
+                  │    └── MANIFEST.MF
+                  ├── WEB-INF
+                  │    ├── lib
+                  │    │   ├── jsp-api.jar
+                  │    │   ├── jstl.jar
+                  │    │   ├── mysql-connector-j-8.0.33.jar
+                  │    │   ├── ojdbc6.jar
+                  │    │   ├── servlet-api.jar
+                  │    │   └── standard.jar
+                  │    └── web.xml
+                  ├── customer
+                  │    ├── login.jsp
+                  │    ├── loginAction.jsp
+                  │    ├── register.jsp
+                  │    └── registerAction.jsp                  
+                  ├── form.html
+                  ├── index.jsp
+                  └── login.html
 
 ```
 
