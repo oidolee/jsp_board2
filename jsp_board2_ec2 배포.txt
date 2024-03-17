@@ -35,6 +35,12 @@ netstat -nlpt
 
 -mysql 접속
  sudo mysql -u root -p
+=> 엔터 접속후 비번설정하자!!
+
+--ec2 root 비번설정
+sudo mysql
+ALTER USER 'root'@'localhost' IDENTIFIED BY '828617';
+FLUSH PRIVILEGES;
 
 - jsp_board2 계정생성
 create user 'lee'@'%' identified by '0000';
