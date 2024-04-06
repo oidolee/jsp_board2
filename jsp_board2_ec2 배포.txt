@@ -39,7 +39,7 @@ netstat -nlpt
 
 --ec2 root 비번설정
 sudo mysql
-ALTER USER 'root'@'localhost' IDENTIFIED BY '828617';
+ALTER USER 'root'@'localhost' IDENTIFIED BY '1234';
 FLUSH PRIVILEGES;
 
 - jsp_board2 계정생성
